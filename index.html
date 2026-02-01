@@ -28,20 +28,22 @@
         
 
             <div class="row main-buttons">
-                <div class="col-lg-6">
+                <div class="col-lg-6 main-button-cols">
                     <div class="bs-component">
                         <div class="d-grid gap-2">
-                            <button class="btn btn-lg btn-info concepts-button" type="button">8 Key Concepts</button>
-                            <button class="btn btn-lg btn-warning foot-button" type="button">Foot Techniques</button>
+                            <button class="btn btn-lg btn-info game-button" type="button" data-game="concept">8 Key Concepts</button>
+                            <button class="btn btn-lg btn-warning game-button" type="button" data-game="foot">Foot Techniques</button>
+                            <button class="btn btn-lg btn-danger game-button" type="button" data-game="handAttack">Hand Attacks</button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 main-button-cols">
                     <div class="bs-component">
                         <div class="d-grid gap-2">
-                            <button class="btn btn-lg btn-danger" type="button">Block button</button>
-                            <button class="btn btn-lg btn-success" type="button">Block button</button>
+                            <button class="btn btn-lg btn-danger game-button" type="button" data-game="stance">Stances</button>
+                            <button class="btn btn-lg btn-success game-button" type="button" data-game="handBlock">Hand Blocks</button>
+                            <button class="btn btn-lg btn-info game-button" type="button" data-game="direction">Direction / Position</button>
                         </div>
                     </div>
                 </div>
@@ -59,19 +61,28 @@
                     <div class="collapse navbar-collapse" id="navbarColor01">
                         <ul class="navbar-nav me-auto">
                             <!--<li class="nav-item">
-                            <a class="nav-link home-button active" href="#">
-                                Home
-                                <span class="visually-hidden">(current)</span>
-                            </a>
-                        </li>-->
+        <a class="nav-link home-button active" href="#">
+            Home
+            <span class="visually-hidden">(current)</span>
+        </a>
+    </li>-->
                             <li class="nav-item">
-                                <a class="nav-link concepts-button" href="#">8 Concepts</a>
+                                <a id="conceptNav" class="nav-link game-button" href="#" data-game="concept">8 Concepts</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link foot-button" href="#">Foot Techniques</a>
+                                <a id="footNav" class="nav-link game-button" href="#" data-game="foot">Foot Techniques</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a id="stanceNav" class="nav-link game-button" href="#" data-game="stance">Stances</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="handBlockNav" class="nav-link game-button" href="#" data-game="handBlock">Hand Blocks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="handAttackNav" class="nav-link game-button" href="#" data-game="handAttack">Hand Attacks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="directionNav" class="nav-link game-button" href="#" data-game="direction">Direction/Position</a>
                             </li>
                         </ul>
 
@@ -80,17 +91,28 @@
             </nav>
 
         </div>
-        <div id="eightConcepts" class="game" style="display: none;">
+        <div id="conceptDiv" class="game" style="display: none;">
             <iframe src="https://www.educandy.com/site/resource_embedded.php?activity-code=144d1e"></iframe>
         </div>
-        <div id="footTechniques" class="game" style="display: none;">
+        <div id="footDiv" class="game" style="display: none;">
             <iframe src="https://www.educandy.com/site/resource_embedded.php?activity-code=144d22"></iframe>
         </div>
-
+        <div id="stanceDiv" class="game" style="display: none;">
+            <iframe src="https://www.educandy.com/site/resource_embedded.php?activity-code=1453d8"></iframe>
+        </div>
+        <div id="handBlockDiv" class="game" style="display: none;">
+            <iframe src="https://www.educandy.com/site/resource_embedded.php?activity-code=1453db"></iframe>
+        </div>
+        <div id="handAttackDiv" class="game" style="display: none;">
+            <iframe src="https://www.educandy.com/site/resource_embedded.php?activity-code=1457a9"></iframe>
+        </div>
+        <div id="directionDiv" class="game" style="display: none;">
+            <iframe src="https://www.educandy.com/site/resource_embedded.php?activity-code=1457b1"></iframe>
+        </div>
 
     </div>
     <div class="container">
-        <footer><span class="copyright">&copy; E Wilkinson</span></footer>
+        <footer><span class="copyright">&copy; E Wilkinson</span> - <small><i>Games created using Educandy</i></small></footer>
     </div>
     
     <script src="assets/js/jquery.min.js"></script>

@@ -5,16 +5,11 @@ $(function () {
         $(".main-buttons").show();
     });
 
-    $(".concepts-button").click(function () {
-        displayDiv("#eightConcepts");
-        $(".concepts-button").addClass("active");
+    $(".game-button").click(function () {
+        var game = $(this).attr("data-game")
+        displayDiv("#" + game + "Div");
+        $("#" + game + "Nav").addClass("active");
     });
-
-    $(".foot-button").click(function () {
-        displayDiv("#footTechniques");
-        $(".foot-button").addClass("active");
-    });
-
 
 
 

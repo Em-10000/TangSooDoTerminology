@@ -6,3 +6,8 @@ iframe {
     border-style: solid;
     border-width: thin;
 }
+
+.main-button-cols
+{
+    margin-bottom: 8px;
+}
