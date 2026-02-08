@@ -31,9 +31,11 @@
                 <div class="col-lg-6 main-button-cols">
                     <div class="bs-component">
                         <div class="d-grid gap-2">
-                            <button class="btn btn-lg btn-info game-button" type="button" data-game="concept">8 Key Concepts</button>
-                            <button class="btn btn-lg btn-warning game-button" type="button" data-game="foot">Foot Techniques</button>
-                            <button class="btn btn-lg btn-danger game-button" type="button" data-game="handAttack">Hand Attacks</button>
+                            <button class="btn btn-lg btn-danger game-button" type="button" data-game="concept">8 Key Concepts</button>
+                            <button class="btn btn-lg btn-secondary game-button" type="button" data-game="foot">Foot Techniques</button>
+                            <button class="btn btn-lg btn-info game-button" type="button" data-game="handAttack">Hand Attacks</button>
+                            <button class="btn btn-lg btn-success game-button" type="button" data-game="commands">Commands</button>
+                            <button class="btn btn-lg btn-warning game-button" type="button" data-game="counting">Counting</button>
                         </div>
                     </div>
                 </div>
@@ -41,9 +43,11 @@
                 <div class="col-lg-6 main-button-cols">
                     <div class="bs-component">
                         <div class="d-grid gap-2">
-                            <button class="btn btn-lg btn-danger game-button" type="button" data-game="stance">Stances</button>
+                            <button class="btn btn-lg btn-info game-button" type="button" data-game="stance">Stances</button>
                             <button class="btn btn-lg btn-success game-button" type="button" data-game="handBlock">Hand Blocks</button>
-                            <button class="btn btn-lg btn-info game-button" type="button" data-game="direction">Direction / Position</button>
+                            <button class="btn btn-lg btn-warning game-button" type="button" data-game="direction">Direction / Position</button>
+                            <button class="btn btn-lg btn-secondary game-button" type="button" data-game="anatomy">Anatomy</button>
+                            <button class="btn btn-lg btn-danger game-button" type="button" data-game="countingSino">Sino-Korean</button>
                         </div>
                     </div>
                 </div>
@@ -84,6 +88,18 @@
                             <li class="nav-item">
                                 <a id="directionNav" class="nav-link game-button" href="#" data-game="direction">Direction/Position</a>
                             </li>
+                            <li class="nav-item">
+                                <a id="commandsNav" class="nav-link game-button" href="#" data-game="commands">Commands</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="anatomyNav" class="nav-link game-button" href="#" data-game="anatomy">Anatomy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="countingNav" class="nav-link game-button" href="#" data-game="counting">Counting</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="countingSinoNav" class="nav-link game-button" href="#" data-game="countingSino">Sino-Korean</a>
+                            </li>
                         </ul>
 
                     </div>
@@ -92,29 +108,64 @@
 
         </div>
         <div id="conceptDiv" class="game" style="display: none;">
-            <!--<iframe src="https://www.educandy.com/site/resource_embedded.php?activity-code=144d1e"></iframe>-->
-            <!--<link rel="import" href="https://www.educandy.com/site/resource_embedded.php?activity-code=144d1e">-->
             <object data="https://www.educandy.com/site/resource_embedded.php?activity-code=144d1e" class="game-object">
-                <embed src="https://www.educandy.com/site/resource_embedded.php?activity-code=144d1e" class="game-object"> </embed>
-                Error: Embedded data could not be displayed.
+                <embed src="https://www.educandy.com/site/resource_embedded.php?activity-code=144d1e" class="game-object" />
             </object>
         </div>
         <div id="footDiv" class="game" style="display: none;">
-            <iframe src="https://www.educandy.com/site/resource_embedded.php?activity-code=144d22"></iframe>
+            <object data="https://www.educandy.com/site/resource_embedded.php?activity-code=144d22" class="game-object">
+                <embed src="https://www.educandy.com/site/resource_embedded.php?activity-code=144d22" class="game-object" />
+            </object>
+
         </div>
         <div id="stanceDiv" class="game" style="display: none;">
-            <iframe src="https://www.educandy.com/site/resource_embedded.php?activity-code=1453d8"></iframe>
+            <object data="https://www.educandy.com/site/resource_embedded.php?activity-code=1453d8" class="game-object">
+                <embed src="https://www.educandy.com/site/resource_embedded.php?activity-code=1453d8" class="game-object" />
+            </object>
+
         </div>
         <div id="handBlockDiv" class="game" style="display: none;">
-            <iframe src="https://www.educandy.com/site/resource_embedded.php?activity-code=1453db"></iframe>
+            <object data="https://www.educandy.com/site/resource_embedded.php?activity-code=1453db" class="game-object">
+                <embed src="https://www.educandy.com/site/resource_embedded.php?activity-code=1453db" class="game-object" />
+            </object>
+
         </div>
         <div id="handAttackDiv" class="game" style="display: none;">
-            <iframe src="https://www.educandy.com/site/resource_embedded.php?activity-code=1457a9"></iframe>
+            <object data="https://www.educandy.com/site/resource_embedded.php?activity-code=1457a9" class="game-object">
+                <embed src="https://www.educandy.com/site/resource_embedded.php?activity-code=1457a9" class="game-object" />
+            </object>
+
         </div>
         <div id="directionDiv" class="game" style="display: none;">
-            <iframe src="https://www.educandy.com/site/resource_embedded.php?activity-code=1457b1"></iframe>
-        </div>
+            <object data="https://www.educandy.com/site/resource_embedded.php?activity-code=1457b1" class="game-object">
+                <embed src="https://www.educandy.com/site/resource_embedded.php?activity-code=1457b1" class="game-object" />
+            </object>
 
+        </div>
+        <div id="commandsDiv" class="game" style="display: none;">
+            <object data="https://www.educandy.com/site/resource_embedded.php?activity-code=145ddf" class="game-object">
+                <embed src="https://www.educandy.com/site/resource_embedded.php?activity-code=145ddf" class="game-object" />
+            </object>
+
+        </div>
+        <div id="anatomyDiv" class="game" style="display: none;">
+            <object data="https://www.educandy.com/site/resource_embedded.php?activity-code=145dfb" class="game-object">
+                <embed src="https://www.educandy.com/site/resource_embedded.php?activity-code=145dfb" class="game-object" />
+            </object>
+
+        </div>
+        <div id="countingDiv" class="game" style="display: none;">
+            <object data="https://www.educandy.com/site/resource_embedded.php?activity-code=145e01" class="game-object">
+                <embed src="https://www.educandy.com/site/resource_embedded.php?activity-code=145e01" class="game-object" />
+            </object>
+
+        </div>
+        <div id="countingSinoDiv" class="game" style="display: none;">
+            <object data="https://www.educandy.com/site/resource_embedded.php?activity-code=145e04" class="game-object">
+                <embed src="https://www.educandy.com/site/resource_embedded.php?activity-code=145e04" class="game-object" />
+            </object>
+
+        </div>
     </div>
     <div class="container">
         <footer><span class="copyright">&copy; E Wilkinson</span> - <small><i>Games created using Educandy</i></small></footer>
